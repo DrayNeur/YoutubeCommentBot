@@ -70,7 +70,7 @@ if __name__ == "__main__":
   auth = authorization()
   while 1:
     time.sleep(1,5)
-    videos = search_by_keyword(auth, "KERWORDS_HERE")
+    videos = search_by_keyword(auth, "KEYWORDS_HERE")
     for video in videos:
       channelid = findChannelId(video)
       print("\n____")
